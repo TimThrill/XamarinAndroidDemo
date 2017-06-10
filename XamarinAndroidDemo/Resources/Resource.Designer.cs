@@ -301,11 +301,11 @@ namespace XamarinAndroidDemo
 			// aapt resource value: 0x7f070006
 			public const int auto = 2131165190;
 			
+			// aapt resource value: 0x7f07000c
+			public const int bt_Google_login = 2131165196;
+			
 			// aapt resource value: 0x7f07000b
 			public const int bt_login = 2131165195;
-			
-			// aapt resource value: 0x7f07000c
-			public const int bt_sign_up = 2131165196;
 			
 			// aapt resource value: 0x7f070007
 			public const int dark = 2131165191;
@@ -378,6 +378,9 @@ namespace XamarinAndroidDemo
 			
 			// aapt resource value: 0x7f040020
 			public const int ApplicationName = 2130968608;
+			
+			// aapt resource value: 0x7f040021
+			public const int GoogleClientKey = 2130968609;
 			
 			// aapt resource value: 0x7f04001f
 			public const int Hello = 2130968607;

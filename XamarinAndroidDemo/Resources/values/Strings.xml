@@ -2,4 +2,5 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">XamarinAndroidDemo</string>
+    <string name="GoogleClientKey">366818564701-muo7qqvcjfu107lp6faqgsei4r2kiiol.apps.googleusercontent.com</string>
 </resources>

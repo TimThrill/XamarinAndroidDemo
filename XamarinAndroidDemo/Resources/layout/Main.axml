@@ -20,8 +20,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/bt_login" />
     <Button
-        android:text="Signup"
+        android:text="Login with Google"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/bt_sign_up" />
+        android:id="@+id/bt_Google_login" />
 </LinearLayout>
