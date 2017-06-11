@@ -73,6 +73,7 @@
     <Compile Include="src\Activity\MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Model\Network\HTTPRequest.cs" />
     <Compile Include="src\Model\SignIn.cs" />
   </ItemGroup>
   <ItemGroup>

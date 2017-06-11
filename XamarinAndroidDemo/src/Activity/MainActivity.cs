@@ -101,18 +101,10 @@ namespace XamarinAndroidDemo
             switch(v.Id)
             {
                 case Resource.Id.bt_login:
-                    SignIn signIn = new SignIn();
+                    SignIn simpleSignIn = new SignIn();
                     string username = et_username.Text;
                     string passwd = et_passwd.Text;
-                    if(!String.IsNullOrEmpty(username) && !String.IsNullOrEmpty(passwd))
-                    {
-                        signIn.simpleSignIn(et_username.Text, et_passwd.Text);
-                    } else
-                    {
-                        AlertDialog.Builder alg = new AlertDialog.Builder(this);
-                        alg.SetTitle("Please input username or password");
-                        alg.Show();
-                    }
+                    simpleSignIn.simpleSignIn(username, passwd);
                     break;
                 case Resource.Id.bt_Google_login:
                     googleSignIn();

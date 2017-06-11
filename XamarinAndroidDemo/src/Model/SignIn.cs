@@ -9,6 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Org.Json;
+using XamarinAndroidDemo.src.Model.Network;
 
 namespace XamarinAndroidDemo.src.Model
 {
@@ -22,7 +24,12 @@ namespace XamarinAndroidDemo.src.Model
             }
 
             Console.WriteLine("username:" + username + " password: " + passwd);
+            JSONObject postParam = new JSONObject();
+            postParam.Put("username", username);
+            postParam.Put("password", passwd);
 
+            HTTPRequest rq = new HTTPRequest();
+            rq.postJson("http://localhost:11618/api/values/signIn/", postParam);
             return false;
         }
     }
